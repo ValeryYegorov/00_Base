@@ -1,0 +1,7 @@
+/TestWebApp/Contracts/obj/*
+/TestWebApp/Contracts/bin/*
+/TestWebApp/DataAccess/bin/*
+/TestWebApp/DataAccess/obj/*
+/TestWebApp/TestWebApp/obj/*
+/TestWebApp/TestWebApp/bin/*
+.idea
