@@ -11,4 +11,11 @@ public class BaseRepository : IBaseRepository
             Message = "Hello " + requestName
         };
     }
+    public HelloReply GetHelloReply(int requestName)
+    {
+        return new HelloReply
+        {
+            Message = "Hello " + requestName
+        };
+    }
 }
