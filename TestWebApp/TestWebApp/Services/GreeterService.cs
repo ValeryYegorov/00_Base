@@ -11,6 +11,6 @@ public class GreeterService(ILogger<GreeterService> logger, IBaseRepository base
     public override Task<HelloReply> SayHello(HelloRequest request, ServerCallContext context)
     {
         
-        return Task.FromResult(baseRepository.GetHelloReply(request.Name));
+        return Task.FromResult(baseRepository.GetHelloReplyTest(request.Name));
     }
 }
